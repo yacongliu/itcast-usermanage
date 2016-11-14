@@ -15,7 +15,7 @@
 <body>
 	<div>
     <table class="easyui-datagrid" id="userList" title="会员列表" 
-	       data-options="singleSelect:false,collapsible:true,pagination:true,url:'/user/list',method:'post',pageSize:5,toolbar:toolbar,pageList:[2,5,10]">
+	       data-options="singleSelect:false,collapsible:true,pagination:true,url:'/rest/user/list',method:'get',pageSize:5,toolbar:toolbar,pageList:[2,5,10]">
 	    <thead>
 	        <tr>
 	        	<th data-options="field:'ck',checkbox:true"></th>
